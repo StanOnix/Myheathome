@@ -1,0 +1,233 @@
+html, body 
+{
+    width:100%;
+    height:100%;
+    /*background-color: #ecf0f1;*/
+    color::#2B3856;
+    overflow-x:hidden;
+    position: relative;
+    font-family: 'Lato';
+}
+
+/*
+@font-face
+{
+    font-family: 'chunkfiveroman';
+    src: url('polices/chunkfive-webfont.eot');
+    src: url('polices/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/chunkfive-webfont.woff2') format('woff2'),
+         url('polices/chunkfive-webfont.woff') format('woff'),
+         url('polices/chunkfive-webfont.ttf') format('truetype'),
+         url('polices/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.btn 
+{
+    transition: all ease-in-out 0.2s;
+}
+
+input.form-control , input[type="submit"] , .btn {
+    border-radius: 0px;
+}
+
+a:link 
+{ 
+ text-decoration:none;
+}
+
+a:hover
+{
+    text-decoration:none;
+
+}
+
+.main {
+    background: white right top no-repeat;
+    background-size: contain;
+    padding: 80px 20px 20px;
+    margin-top: 120px;
+}
+
+@media only screen and (max-width : 992px) {
+    .main {
+        background: white;
+        margin-top: 30px;
+    }
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 0;
+}
+
+form 
+{
+    margin-top: 60px;
+}
+input.form-control , input[type="submit"] , .btn, .navbar {
+    border-radius: 0px;
+}
+
+.error
+{
+    color :red;
+}
+
+.good
+{
+    color:green;
+}
+
+.titre_section
+{
+    text-align: left;
+}
+
+.titre_page
+{
+    text-align: center;
+}
+
+hr 
+{ 
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0; 
+}*/
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+a:link 
+{ 
+ text-decoration:none;
+}
+
+a:hover
+{
+    text-decoration:none;
+
+}
+
+.main {
+    background: #2B3856 right top no-repeat;
+    background-size: contain;
+    padding: 80px 20px 20px;
+    margin: 120px;
+}
+
+@media only screen and (max-width : 992px) {
+    .main {
+        background: white;
+        margin: 5px;
+    }
+    h3{
+       font-size:1.1em;
+    }
+    h5{
+       font-size:0.8em;
+    }
+    p{
+       font-size:0.7em;
+    }
+    
+}
+
+
+/*Filestyle*/
+
+.input-file-container {
+  position: relative;
+  width: 225px;
+} 
+.js .input-file-trigger {
+  display: block;
+  padding: 14px 45px;
+  background: #39D2B4;
+  color: #fff;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+}
+.js .input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+  background: #34495E;
+  color: #39D2B4;
+}
+
+.file-return {
+  margin: 0;
+}
+.file-return:not(:empty) {
+  margin: 1em 0;
+}
+.js .file-return {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+.js .file-return:not(:empty):before {
+  content: "Selected file: ";
+  font-style: normal;
+  font-weight: normal;
+}
+
+footer
+{
+    background: #566D7E;
+    padding:20px;
+    margin-top:10px;
+    color:#eee;
+}
+
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+}
+
+
+
+
+
+
